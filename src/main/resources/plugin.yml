@@ -1,0 +1,6 @@
+name: ChatColor_System
+version: '1.0-SNAPSHOT'
+main: at.floticey.chatColor_System.Main
+api-version: '1.20'
+commands:
+  chatcolor:
