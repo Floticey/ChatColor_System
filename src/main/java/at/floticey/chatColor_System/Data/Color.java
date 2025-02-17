@@ -1,15 +1,18 @@
 package at.floticey.chatColor_System.Data;
 
+import org.bukkit.ChatColor;
+
 public enum Color {
 
-    RED("RED"),
-    BLUE("BLUE"),
-    GREEN("GREEN");
+    RED(ChatColor.RED),
+    GREEN(ChatColor.GREEN),
+    BLUE(ChatColor.BLUE),
+    WHITE(ChatColor.WHITE);
 
-    private String color;
+    private ChatColor color;
 
-    Color(String color) {
-        this.color = color;
+    Color(ChatColor color) { this.color = color; }
 
-    }
+    public ChatColor getChatColor() { return color; }
+
 }
